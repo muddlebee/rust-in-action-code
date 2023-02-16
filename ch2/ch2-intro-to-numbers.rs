@@ -5,7 +5,6 @@ fn main() {
 
   let addition = twenty + twenty_one + twenty_two;
   println!("{} + {} + {} = {}", twenty, twenty_one, twenty_two, addition);
-
   let one_million: i64 = 1_000_000;      //<4>
   println!("{}", one_million.pow(2));    //<5>
 
